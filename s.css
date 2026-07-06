@@ -1,0 +1,145 @@
+header{
+    display: flex;
+    background-color: rgba(231, 177, 52, 0.782);
+    justify-content: space-between ;
+    align-items: center;
+    padding: 25px;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    height:100px;
+
+}
+.f1 img{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+nav a{
+    margin-right: 30px;
+    text-decoration:underline;
+    /* background-color:rgb(156, 65, 65); */
+    color: rgba(0, 0, 0, 0.659);
+}
+#at{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(93, 90, 83, 0.264);
+    padding: 50px;
+    /* height: 300px; */
+}
+#at p{
+    width: 500px;
+    line-height: 30px;
+}
+#at img{
+    height: 250px;
+    width: 500px;
+}
+#in{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(185, 179, 163, 0.153);
+    padding: 50px;
+    /* height: 300px; */
+}
+#in p{
+    width: 500px;
+    line-height: 30px;
+}
+#in img{
+    height: 250px;
+    width: 500px;
+}
+
+#ot{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color:rgba(104, 79, 104, 0.321);
+    padding: 50px;
+    /* height: 300px; */
+}
+#ot p{
+    width: 500px;
+    line-height: 30px;
+}
+#ot img{
+    height: 250px;
+    width: 500px;
+    
+}
+#te{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    background-color: rgba(205, 92, 92, 0.184);
+    justify-content: center;
+    gap: 15px;
+    align-content: center;
+    padding: 30px;
+    text-align: center;
+}
+#te li{
+    background-color: rgba(245, 245, 220, 0.36);
+    list-style: none;
+    padding: 10px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(248, 248, 255, 0.204);
+
+}
+.soc{
+    display: flex;
+}
+svg{
+    width: 200px;
+}
+#yup{
+    width: 1380px;
+    height: 850px;
+    /* background: linear-gradient(45deg,purple,green,ivory,indianred, pink,black); */
+    /* background-size:cover;
+    background-image:url(images\ \(8\).jpg); */
+    padding: 40px;
+    position:fixed;
+    z-index: -1;
+    animation: lie 4s ease-in infinite;
+}
+@keyframes lie {
+    10%{
+        transform: rotate(0deg);
+        background-color: pink;
+    }
+    25%{
+        transform:rotate(90eg);
+        background-color: crimson;
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: rgb(41, 23, 41);
+    }
+    75%{
+        transform: rotate(270deg);
+        background-color: violet;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: deeppink;
+    }
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
